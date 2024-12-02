@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("part1: " + day1.part1());
-        System.out.println("part2: " + day1.part2());
+        ExecutionTimer.measureExecutionTime("part 1: ", day1::part1);
+        ExecutionTimer.measureExecutionTime("part 2: ", day1::part2);
     }
 }
