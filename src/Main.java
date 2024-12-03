@@ -4,5 +4,6 @@ public class Main {
         ExecutionTimer.measureExecutionTime("part 2: ", day1::part2);
         ExecutionTimer.measureExecutionTime("day 2 part1: ", day2::part1);
         ExecutionTimer.measureExecutionTime("day 2 part2: ", day2::part2);
+        ExecutionTimer.measureExecutionTime("day 3 part1: ", day3::part1);
     }
 }
